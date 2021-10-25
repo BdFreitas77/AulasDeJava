@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.bandtec.projeto.lista.desafio.ListaUtilTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE!
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaNaoPossuiDuplicidadeDeveRetornarFalse()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: com.bandtec.projeto.lista.desafio.ListaUtil.hasDuplicidade()Z
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaNaoPossuiDuplicidadeDeveRetornarFalse(ListaUtilTest.java:222)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaPossuiDuplicidadeDeveRetornarTrue()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: com.bandtec.projeto.lista.desafio.ListaUtil.hasDuplicidade()Z
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaPossuiDuplicidadeDeveRetornarTrue(ListaUtilTest.java:207)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaEstaVaziaDeveRetornarFalse()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: com.bandtec.projeto.lista.desafio.ListaUtil.hasDuplicidade()Z
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaEstaVaziaDeveRetornarFalse(ListaUtilTest.java:230)
+
